@@ -1,0 +1,117 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/R1"
+    tools:context="com.example.laylakatary.gp.ListItemsActivity">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Carrefour"
+            android:textColor="#000"
+            android:textSize="46dp"
+            android:id="@+id/carrfourtext"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="79dp"
+            android:id="@+id/imageButton"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/carrfourtext"
+            android:onClick="movefun"
+            android:text="View Order"
+            />
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_marginTop="70dp"
+    android:layout_height="wrap_content">
+    <ListView
+        android:id="@+id/items_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+    <!--<ScrollView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="70dp"-->
+        <!-->-->
+
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!-->-->
+
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/horizontalScrollView"-->
+                <!--android:layout_centerVertical="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/Rootlayout"-->
+                    <!-->-->
+
+                <!--</LinearLayout>-->
+            <!--</HorizontalScrollView>-->
+
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/horizontalScrollView2"-->
+                <!--android:layout_below="@+id/horizontalScrollView"-->
+                <!--android:layout_centerVertical="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/Rootlayout2"-->
+
+                    <!-->-->
+
+
+                <!--</LinearLayout>-->
+            <!--</HorizontalScrollView>-->
+
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/horizontalScrollView3"-->
+                <!--android:layout_below="@+id/horizontalScrollView2"-->
+                <!--android:layout_centerVertical="true">-->
+
+                <!--<LinearLayout-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_alignParentStart="true"-->
+                    <!--android:id="@+id/Rootlayout3"-->
+                    <!-->-->
+
+                <!--</LinearLayout>-->
+            <!--</HorizontalScrollView>-->
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+

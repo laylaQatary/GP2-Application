@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:weightSum="1"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Order">
+
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/pr"
+        android:layout_marginLeft="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Order Price: "
+        android:textSize="20dp"
+        android:layout_gravity=""
+        android:layout_marginTop="27dp"
+        android:textColor="#EB1D23"
+        />
+    <TextView
+    android:id="@+id/pr2"
+    android:layout_marginLeft="270dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="100 "
+    android:textSize="20dp"
+    android:layout_gravity=""
+    android:layout_marginTop="27dp"
+    android:textColor="#EB1D23"
+    />
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="70dp"
+        android:layout_height="fill_parent">
+        <ListView
+            android:id="@+id/order_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        />
+</LinearLayout>
